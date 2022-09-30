@@ -1,0 +1,48 @@
+*{
+  margin: 0%;
+}
+
+body{
+  padding: 0px;
+  margin: 0px;
+}
+
+header{
+  background-color: #E8E8E8;
+  height: 80px;
+
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar{
+  max-width: 190px;	/* с padding=10px как раз получится 200px */
+  background-color: #C8FC98;
+  line-height: 1.5em;
+  padding-left: 10px;
+  position: relative; 
+}
+
+.main{
+  padding-left: 10px;
+  padding-top: 1px;
+  background-color: white;
+  line-height: 1.5em;
+  height: 850px;
+}
+
+footer{
+  background-color: black;
+  color: #FDE95E;
+  height: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align
+  margin: 0;
+}
